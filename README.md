@@ -1,4 +1,4 @@
-Spring Music
+Spring Music     [![Build Status](https://travis-ci.org/sandipan6d/spring-music.svg?branch=master)](https://travis-ci.org/sandipan6d/spring-music)
 ============
 
 This is a sample application for using database services on [Cloud Foundry](http://cloudfoundry.org) with the [Spring Framework](http://spring.io) and [Spring Boot](http://projects.spring.io/spring-boot/).
