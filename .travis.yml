@@ -4,7 +4,7 @@ jdk:
 scripts:
 - "./gradlew check"
 - "./gradlew assemble"
-- "cf login -a api.run.pivotal.io -u pcf_user -p pcf_pass"
+- "cf login -a api.run.pivotal.io -u ${pcf_user} -p ${pcf_pass}"
 env:
   global:
   - secure: XHRptVN/zQqrw01w28mQEYi/lcTflav1xJ9mcm3hwE3y+XyVrvTNt7Ir9ekeYjGmi8zD8iMnuOohgNPToviQ5fymZjyi/rcgaJHfTfDpiV0tfappDhS+zAjErxcntnr/lA7y6S1X8HUS3NM5Nmyo7XIHGqa4rpLZFJtPdpjXzDVbA2ht2/irIbvZVhmy673N8LQIZ48I3KmkZDQYIVLwhAZyeVvhojPquxBiaBlrtxLRAt4RZy3agRXMlbq5nyJ0TmTR9ITQcB7nJPkSIL4socAcLOaonRYvX5l5rXQVHzwNS5Ozm9gJhEAlvNdZWxaqYm052uGxSlLk17LKY3X1Gr0Cmwnpgf/XfBGrpnyefuFDJ1z8uB+j6Z5hlUYsxIR2AOpCcDHFSk0DNDjfXxNu2X4HEBfP0yOf7ux9EFL8o69DwWLnKbhZVa1bsBqCKBV7DOcUfMNXUmHJGJrDB2bDdTixsRcr/1pYrgICcGgv7eZi/g+32bY6HOMHfReGXirdaGx3hi1MzlUwTR8AGcDAbr9TYVLFRPZR0ANF94ZEfspxEGnLcSljykVDOhGrhTOmZJvRAGg9Tr5hYEJ09yAJZ7cKsi4jyA8jVcO/+YxOW12BTM2cOBRs4d73jRQUPhMJkUjMgR5lSVWarpKhWKqMHKL37huDVf5vUxffddSQ8Pg=
